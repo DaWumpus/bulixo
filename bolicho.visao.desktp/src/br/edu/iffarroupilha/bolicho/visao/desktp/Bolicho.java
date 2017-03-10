@@ -49,7 +49,7 @@ public class Bolicho extends JFrame{
 		cliente.addActionListener( new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				JOptionPane.showMessageDialog(Bolicho.this, "Voce clicou");
+				new FrmCliente(Bolicho.this);
 			}
 			});
 		produto.addActionListener( new ActionListener(){
